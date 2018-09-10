@@ -1,12 +1,14 @@
 'use strict'
 
 let axios = require('axios')
+
 const handler = (interaction) => {
   return new Promise((resolve, reject) => {
     // Check for parameters
     if (!interaction.parameters.hasOwnProperty('symbol')) {
       reject(new Error('missing symbol parameter for action fetchPriceCryptoCurrency'))
     }
+
     let symbol = interaction.parameters['symbol']
 
     // Fetch the price of the cryptocurrency

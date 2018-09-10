@@ -1,15 +1,16 @@
 {
-  "name": "crypto-chatbot",
+  "name": "cryptobot",
   "version": "1.0.0",
-  "description": "A brain-dead simple crypto chatbot",
+  "description": "A brain-dead simple CryptoBot",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "YourNameRightHere",
+  "author": "Baboo7",
   "dependencies": {
     "axios": "^0.18.0",
-    "body-parser": "^1.18.3",
-      "express": "^4.16.3"
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "winston": "^3.0.0"
   }
 }
